@@ -1,4 +1,4 @@
-# Exercise 10-02 v1.2.0
+# Exercise 11-02 v2.2.1
 #
 ---
 apiVersion: networking.k8s.io/v1
@@ -7,6 +7,7 @@ metadata:
   name: app-ing 
   namespace: app
 spec:
+  ingressClassName: nginx
   rules:
     - host: app.local
       http:
