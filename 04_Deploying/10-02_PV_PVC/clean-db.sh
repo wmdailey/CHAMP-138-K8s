@@ -41,8 +41,6 @@ kubectl -n db-ns delete svc db01-svc
 kubectl -n db-ns delete cm db01-cm
 kubectl -n db-ns delete pvc db01-pvc
 kubectl delete pv db01-pv
-kubectl taint node edu-worker tier=db:NoSchedule-
-kubectl taint nodes edu-worker2 edu-worker3 tier=frontend:NoSchedule-
 kubectl delete namespace db-ns
 
 echo "Finished"
