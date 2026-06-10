@@ -24,7 +24,7 @@
 
 # Title: clean-web.sh
 # Author: WKD
-# Version: 3.2.0
+# Version: 2.2.1
 # Date: 17JUN25
 
 # DEBUG
@@ -38,6 +38,6 @@
 kubectl -n app delete deploy app-deploy
 kubectl -n app delete svc app-svc
 kubectl -n app delete ing app-ing
-kubectl delete ns app
+kubectl delete ns app-ns
 
 echo "Finished"
