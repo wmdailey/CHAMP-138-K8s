@@ -1,11 +1,11 @@
-# Exercise 11-02 v2.2.1
+# Exercise 11-03 v2.2.1
 #
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: app-deploy
-  namespace: app
+  namespace: app-ns
   labels:
     app: app-app 
     tier: backend 
