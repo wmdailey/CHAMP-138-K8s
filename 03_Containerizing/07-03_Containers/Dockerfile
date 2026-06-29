@@ -1,4 +1,4 @@
-# Exercise: 07-03 v3.2.0
+# Exercise: 07-03 v2.2.1
 # Dockerfile for app-frontend
 
 # Cloudera Edu

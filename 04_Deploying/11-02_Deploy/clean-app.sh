@@ -35,9 +35,9 @@
 # VARIABLE
 
 # MAIN
-kubectl -n app delete deploy app-deploy
-kubectl -n app delete svc app-svc
-kubectl -n app delete ing app-ing
+kubectl -n app-ns delete deploy app-deploy
+kubectl -n app-ns delete svc app-svc
+kubectl -n app-ns delete ing app-ing
 kubectl delete ns app-ns
 
 echo "Finished"
